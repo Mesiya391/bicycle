@@ -8,14 +8,76 @@
    <link rel="stylesheet" href="styles.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="container-fluid">
         <h1>Rower</h1>
         <p>Pojazd napedzany sila ludzkich miesni</p>
       </div>
+      <div class="container">
+        <nav class="navbar navbar-toggleable-md navbar-light" id="commRollover">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">O nas<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <table class="table-bordered">
+            <thead>
+              <tr>
+                <th style="width: 33%">Definicja roweru</th>
+                <th style="width: 67%">Rodzaje rowerow</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="3" id="define" height="30%">Rower – jedno- lub wielośladowy pojazd drogowy napędzany siłą mięśni poruszających się nim osób za pomocą przekładni mechanicznej, wprawianej w ruch (najczęściej) nogami[1].
+                    Pierwotnie nosił nazwę welocyped oraz bicykl i podobnie nazywany jest w większości nowożytnych języków europejskich. Obecna polska nazwa pochodzi od brytyjskiej firmy Rover, która dawniej produkowała rowery[2].</td>
+               <td> Rower miejski <br/>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Brosen_city_bicycle.jpg/220px-Brosen_city_bicycle.jpg" alt="rower miejski"><br/>
+                
+                Rower miejski – rower przeznaczony do jazdy w mieście.</td>
+              </tr>
+              <tr>
+               <td> Rower gorski <br/>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Pinarello_Dogma_XC_Shimano_XTR_Custom_Bike_%2816165258647%29.jpg/321px-Pinarello_Dogma_XC_Shimano_XTR_Custom_Bike_%2816165258647%29.jpg" alt="rower gorski"><br/>
+                
+                    Rowery górskie (ang. MTB, Mountain Terrain Bike) – nazwa rowerów, których przeznaczeniem jest jazda w terenie trudniejszym, niż pozwalają na to rowery szosowe czy trekingowe, np. górskie ścieżki, szlaki leśne, specjalne tory przeszkód.</td>
+              </tr>
+              <tr>
+               <td> BMX <br/>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Rower_typu_BMX_marki_Sunday.jpg/220px-Rower_typu_BMX_marki_Sunday.jpg" alt="bmx"><br/>
+                
+                    BMX (ang. bicycle motocross) – nazwa roweru i rodzaju kolarstwa, które zostało zapoczątkowane w USA w latach 70. XX wieku.
+
+Sport ten uprawia się na torach ziemnych ze sztucznie przygotowanymi przeszkodami, z użyciem rowerów na kołach 20-calowych lub 24-calowych (cruiser), posiadających wzmocnioną i bardzo uproszczoną (bez przerzutek) konstrukcję. Poza tym BMX-y mogą mieć dowolny typ konstrukcji, masę i geometrię.
+
+Istnieją również mistrzostwa świata i puchar świata BMX (UCI BMX Supercross).</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
